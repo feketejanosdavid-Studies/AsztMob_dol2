@@ -1,3 +1,8 @@
+// Created: Fekete János Dávid
+// Filename: App.java
+// II/2/N, 2024.11.13
+// github: https://github.com/feketejanosdavid
+
 package com.example;
 
 import javafx.application.Application;

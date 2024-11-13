@@ -1,3 +1,9 @@
+// Created: Fekete János Dávid
+// Filename: mainController.java
+// II/2/N, 2024.11.13
+// github: https://github.com/feketejanosdavid
+
+
 package com.example;
 
 import javafx.event.ActionEvent;
