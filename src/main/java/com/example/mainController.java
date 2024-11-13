@@ -2,6 +2,7 @@ package com.example;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 
 public class mainController {
@@ -25,6 +26,22 @@ public class mainController {
     void CaclButton(ActionEvent event) {
         StartCalc();
     }
+
+
+    @FXML
+    void CloseButton(ActionEvent event) {  
+        System.exit(0);   
+    }
+
+    @FXML
+    void InfoButton(ActionEvent event) {  
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);        
+        alert.setTitle("Info");
+        alert.setHeaderText("Hogyan használd?");
+        alert.setContentText("Írd be a trapéz 4 oldalát a megadott mezőkbe, majd nyomd meg a számít gombot, utánna az eredmény megjelenik.\nKészítette: Fekete János Dávid, II/2/N, 2024.11.13");
+        alert.showAndWait();  
+    }
+
 
     public void StartCalc() {
         double a = Double.parseDouble(ASideTF.getText());
