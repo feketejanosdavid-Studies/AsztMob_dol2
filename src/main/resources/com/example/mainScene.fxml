@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mainController">
+   <children>
+      <Label layoutX="218.0" layoutY="26.0" text="Trapéz területszámító program" />
+      <TextField fx:id="ASideTF" layoutX="38.0" layoutY="91.0" />
+      <TextField fx:id="BSideTF" layoutX="38.0" layoutY="136.0" />
+      <TextField fx:id="CSideTF" layoutX="38.0" layoutY="175.0" />
+      <TextField fx:id="DSideTF" layoutX="38.0" layoutY="226.0" />
+      <TextField fx:id="ResultTF" layoutX="38.0" layoutY="304.0" />
+      <Label layoutX="202.0" layoutY="95.0" text="A oldal" />
+      <Label layoutX="202.0" layoutY="140.0" text="B oldal" />
+      <Label layoutX="200.0" layoutY="179.0" text="C oldal" />
+      <Label layoutX="200.0" layoutY="230.0" text="D oldal" />
+      <Label layoutX="200.0" layoutY="308.0" text="Eredmény" />
+      <Button layoutX="86.0" layoutY="262.0" mnemonicParsing="false" onAction="#CaclButton" text="Számít" />
+   </children>
+</Pane>
